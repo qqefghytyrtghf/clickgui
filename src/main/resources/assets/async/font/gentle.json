@@ -1,0 +1,37 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "async:font/ascii.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "ÀÁÂÈÊËÍÓÔÕÚßãõğİ",
+        "ıŒœŞşŴŵžȇ\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        " !\"#$%&'()*+,-./",
+        "0123456789:;<=>?",
+        "@ABCDEFGHIJKLMNO",
+        "PQRSTUVWXYZ[\\]^_",
+        "`abcdefghijklmno",
+        "pqrstuvwxyz{|}~\u0000",
+        "ÇüéâäàåçêëèïîìÄÅ",
+        "ÉæÆôöòûùÿÖÜø£Ø×ƒ",
+        "áíóúñÑªº¿®¬½¼¡«»",
+        "░▒▓│┤╡╢╖╕╣║╗╝╜╛┐",
+        "└┴┬├─┼╞╟╚╔╩╦╠═╬╧",
+        "╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀",
+        "αβΓπΣσμτΦΘΩδ∞φε∩",
+        "≡±≥≤⌠⌡÷≈°∙·√ⁿ²■\u0000"
+      ]
+    },
+    {
+      "type": "legacy_unicode",
+      "sizes": "async:glyph_sizes.bin",
+      "template": "async:font/unicode_page_%02x.png"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    }
+  ]
+}

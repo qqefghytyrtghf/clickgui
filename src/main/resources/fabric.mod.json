@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "async",
+  "version": "${version}",
+  "name": "Async",
+  "description": "Async-Minecraft Entity Multi-Threading Mod",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.async.AsyncClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "fabric-api": ">=0.141.6+1.21.11",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  },
+  "icon": "icon.png",
+  "license": "GPL-3.0",
+  "authors": [
+    "AxalotL",
+    "Alchemy",
+    "Bliss",
+    "FurryMileon",
+    "Grider",
+    "jediminer543"
+  ]
+}
